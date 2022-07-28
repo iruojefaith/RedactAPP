@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Redartar App</title>
+</head>
+<body>
+    <main>
+        <div class="redact-container">
+            <label for="comment"> Comments:</label><br>
+            <textarea name="comment" id="input-comment" cols="50" rows="15"></textarea><br>
+            <label for="word">Words to Redact:</label><br>
+            <input type="text" id="inputText"><br>
+            <label for="symbols">Replace Symbols:</label><br>
+            <input type="text" id="inputSymbol" ><br>
+            <div class="btn-container">
+                <button id="btn">Redact
+                    <div id="btn__horizontal"></div>
+	                <div id="btn__vertical"></div>
+                </button>
+            </div>
+
+        </div>
+        <div id="output">
+
+        </div>
+
+    </main>
+    <script src="App.js"></script>
+</body>
+</html>
